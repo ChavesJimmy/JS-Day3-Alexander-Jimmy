@@ -12,12 +12,14 @@
 <div class="container">
     <div id="userinput">
         <form>
+        <!-- <form onsubmit="return false"> -->
+        <!-- <form onsubmit="event.preventDefault()"> also works  -->
             <div class="row align-items-center justify-content-center">
                 <div class="col-auto">
                     <input type="number" name="degrees" class="form-control mb-2" id="userdegreeinput" placeholder="Please input a Number" aria-label="Please input a Number">
                 </div>
                 <div class="col-auto">
-                    <button id="submit" type="submit" class="btn btn-primary mb-2" onclick="temperature();">Submit</button>
+                    <button id="submit" type="submit" class="btn btn-primary mb-2" onclick="temperature()">Submit</button>
                 </div>
             </div>
           </form>

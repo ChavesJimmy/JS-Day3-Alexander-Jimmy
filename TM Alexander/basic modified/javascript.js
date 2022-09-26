@@ -22,8 +22,8 @@ var modpic = document.getElementById("moderatepicture");
 var coldpic = document.getElementById("coldpicture");
 
 
-function temperature(e){
-    e.preventDefault();
+function temperature(){
+    event.preventDefault()
     temp = document.getElementById("userdegreeinput").value;
     if(temp < 10){
         coldpic.style.display = "block";
