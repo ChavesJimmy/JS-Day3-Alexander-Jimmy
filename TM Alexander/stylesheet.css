@@ -1,0 +1,26 @@
+body {
+    margin-top: 5%;
+}
+
+/* #hotpicture{
+    display: none;
+} */
+/* #moderatepicture{
+    display: none;
+} */
+#coldpicture{
+    display: none;
+}
+
+@media (min-width: 1200px){
+    #programoutput{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 2%;
+    }
+    };
+       
+/* 
+div{
+    transition: all 1s;
+} */
