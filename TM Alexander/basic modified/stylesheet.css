@@ -12,7 +12,13 @@ body {
     display: none;
 }
 
+.show{
+    display: block;
+}
 
+.noshow{
+    display: none;
+}
 
 @media (min-width: 1200px){
     #programoutput{
