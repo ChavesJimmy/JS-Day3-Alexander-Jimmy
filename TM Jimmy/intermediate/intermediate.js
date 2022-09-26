@@ -1,32 +1,32 @@
 //ex1
 const names = ["Martin", "Thomas", "Klaus", "Maria", "David"];
-const grades = [76, 85, 65, 93, 81];
-
-for (i=0; i < names.length; i++) {
- document.write(`${names[i]} has an average grade : ${grades[i]}<br>`)}
-
-/* function gradeToLetter(grades){
-    let grade = grades.map;
-    if (grade < 60 ){
-        document.write("F");
-    } 
-    else if (grade < 70 ){
-        document.write("D")
-    }
-} */
-document.write(`${names[2]} has an average grade : ${grades[2]}<br>`)
+let grades = [76, 85, 65, 93, 81];
 
 let sum = 0;
 for (const value of grades) {
-    sum += value;
+    sum += value;    
 }
-document.write(`The average grade of the class is ${sum/5}`)
+document.write(`<br>The average grade of the class is ${sum/5}<br><br>`)
 
-if (grades[i]>90){
-    grades[i] = A ;
-    document.write(grade[i])
-}
+for (i=0; i < names.length; i++) {
+        if(grades[i]>=90){
+        grades[i]="A";
+    }
+    if(grades[i] >=80){
+        grades[i]="B";
+    }
+    if(grades[i]>=70){
+        grades[i]="C";
+    }
+    if(grades[i]>=60 ){
+        grades[i]="D";
+    } 
+    
+    
+    
+ document.write(`${names[i]} has an average grade : ${grades[i]}<br>`)}
 
+document.write(`${names[2]} has an average grade : ${grades[2]}<br>`)
 //ex2
 
 for (let i=1; i<101; i++) {
@@ -45,10 +45,11 @@ for (let i=1; i<101; i++) {
 }
 
 //ex 3
-
+/* 
 for (let i=1; i<7; i++) {
     let text = "*"
     console.log(text.repeat(i));
-    document.write(`${text.repeat(i)}<br>`);
+    document.write(`<br>${text.repeat(i)}<br>`);
 
 }
+ */
