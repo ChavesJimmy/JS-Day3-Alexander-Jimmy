@@ -27,21 +27,29 @@ for (i=0; i < names.length; i++) {
  document.write(`${names[i]} has an average grade : ${grades[i]}<br>`)}
 
 document.write(`${names[2]} has an average grade : ${grades[2]}<br>`)
-//ex2
 
-for (let i=1; i<101; i++) {
-   // console.log(i);
-/* 
-    let i=0;
-    if ((i % 3) === 0){
-        console.log(i % 3 ="fizz")
+
+//ex2
+for (let i=1; i<=100; i++) {
+    
+   console.log(i);
+    if (i % 15 === +1/*  && i % 5 === 1 */){
+        document.write("fizzBuzz");
+        console.log("fizzbuzz");
     }
-    else if (i % 5 === 0){
-        console.log(i="Buzz");
+    else if ((i % 3) === +1){
+        let text = "fizz";
+        document.write(text);
+        console.log("fizz");
+
     }
-    else if (i % 3 === 0 && i % 5 === 0){
-        console.log(i="fizzBuzz")
-    } */
+    else if (i % 5 === 1){
+        document.write("Buzz");
+        console.log("buzz");
+
+    }
+    
+    document.write(`<br> ${i}`)
 }
 
 //ex 3
