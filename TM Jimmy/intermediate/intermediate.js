@@ -31,23 +31,22 @@ document.write(`${names[2]} has an average grade : ${grades[2]}<br>`)
 
 //ex2
 for (let i=1; i<=100; i++) {
-    
-   console.log(i);
+   
     if (i % 15 === +1/*  && i % 5 === 1 */){
-        document.write("fizzBuzz");
+        document.write(" fizzBuzz");
         console.log("fizzbuzz");
     }
     else if ((i % 3) === +1){
-        let text = "fizz";
+        let text = " fizz";
         document.write(text);
         console.log("fizz");
 
     }
     else if (i % 5 === 1){
-        document.write("Buzz");
+        document.write( " Buzz");
         console.log("buzz");
 
-    }
+    }console.log(i);
     
     document.write(`<br> ${i}`)
 }
