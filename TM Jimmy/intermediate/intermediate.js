@@ -26,3 +26,29 @@ if (grades[i]>90){
     grades[i] = A ;
     document.write(grade[i])
 }
+
+//ex2
+
+for (let i=1; i<101; i++) {
+   // console.log(i);
+/* 
+    let i=0;
+    if ((i % 3) === 0){
+        console.log(i % 3 ="fizz")
+    }
+    else if (i % 5 === 0){
+        console.log(i="Buzz");
+    }
+    else if (i % 3 === 0 && i % 5 === 0){
+        console.log(i="fizzBuzz")
+    } */
+}
+
+//ex 3
+
+for (let i=1; i<7; i++) {
+    let text = "*"
+    console.log(text.repeat(i));
+    document.write(`${text.repeat(i)}<br>`);
+
+}
